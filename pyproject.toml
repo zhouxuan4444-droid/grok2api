@@ -29,3 +29,5 @@ dependencies = [
 dev = [
     "ruff>=0.15.0",
 ]
+[tool.uv.pip]
+index-strategy = "unsafe-best-match"
